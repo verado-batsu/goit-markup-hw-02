@@ -18,3 +18,81 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--primary-text-color);
 }
+
+
+/* .................................HEADER................................ */
+.header {}
+
+.header__nav {}
+
+.logo__link {}
+
+.nav__list {}
+
+.nav__item {}
+
+.nav__link {}
+
+.header__list {}
+
+.header__item {}
+
+.header__link {}
+/* ...............................END HEADER................................ */
+
+/* INDEX.HTML */
+
+.main__content {}
+
+.main__hero {}
+
+.hero__title {}
+
+.hero__btn {}
+
+.main__benefits {}
+
+.benefits__title {}
+
+.benefits__list {}
+
+.benefits__item {}
+
+.benefits__name {}
+
+.benefits__discrpt {}
+
+.main__example {}
+
+.example__title {}
+
+.example__list {}
+
+.example__item {}
+
+.example__img {}
+
+.main__team {}
+
+.team__title {}
+
+.team__list {}
+
+.team__item {}
+
+.team__img {}
+
+.team__name {}
+
+.team__position {}
+
+.footer {}
+
+.footer__address {}
+
+.footer__list {}
+
+.footer__item {}
+
+.footer__link {}
+/* ...........................END INDEX.HTML........................... */
