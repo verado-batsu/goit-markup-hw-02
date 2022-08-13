@@ -11,7 +11,14 @@
 	--header-logo-color: #000000;
 	--footer-logo-color: #FFFFFF;
 	--hero-text-color: #FFFFFF;
-	--footer-address-color: #FFFFFF;
+	--footer-map-address-color: #FFFFFF;
+	--footer-address-color: rgba(255, 255, 255, 0.6);
+
+	--header-bg-color: #FFFFFF;
+	--benefits-example-bg-color: #FFFFFF;
+	--hero-bg-color: #2F303A;
+	--team-bg-color: #F5F4FA;
+	--footer-bg-color: #2F303A;
 }
 
 body {
@@ -21,37 +28,90 @@ body {
 
 
 /* .................................HEADER................................ */
-.header {}
+.header {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	background-color: var(--header-bg-color);
+}
 
 .header__nav {}
 
-.logo__link {}
+.logo__link {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--header-logo-color);
+}
+.logo__link span {
+	color: var(--hover-text-color);
+}
 
-.nav__list {}
+.nav__list {
+	
+}
 
 .nav__item {}
 
-.nav__link {}
+.nav__link {
+	color: var(--primary-text-color);
+}
+.nav__link:hover,
+.nav__link:focus {
+	color: var(--hover-text-color);
+}
 
-.header__list {}
+.header__list {
+	
+}
 
 .header__item {}
 
-.header__link {}
-/* ...............................END HEADER................................ */
+.header__link {
+	color: var(--secondary-text-color);
+}
+.header__link:hover,
+.header__link:focus {
+	color: var(--hover-text-color);
+}
+/* .................................END HEADER................................ */
 
 
 /* ...................................FOOTER.................................. */
-.footer {}
+.footer {
+	background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+	color: var(--footer-logo-color);
+}
 
 .footer__address {}
 
-.footer__list {}
+.footer__list {
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
 
 .footer__item {}
 
-.footer__link {}
+.footer__map-address {
+	color: var(--footer-map-address-color);
+}
+.footer__map-address:hover,
+.footer__map-address:focus {
+	color: var(--hover-text-color);
+}
 
+.footer__link {
+	color: var(--footer-address-color);
+}
+.footer__link:hover,
+.footer__link:focus {
+	color: var(--hover-text-color);
+}
 /* .................................END FOOTER................................ */
 
 
