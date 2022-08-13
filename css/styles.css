@@ -3,3 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 /* font-family: 'Raleway', sans-serif; */
 @import url(./nullstyle.css);
+
+:root {
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--hover-text-color: #2196F3;
+	--header-logo-color: #000000;
+	--footer-logo-color: #FFFFFF;
+	--hero-text-color: #FFFFFF;
+	--footer-address-color: #FFFFFF;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: var(--primary-text-color);
+}
