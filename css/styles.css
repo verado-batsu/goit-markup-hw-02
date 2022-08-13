@@ -40,8 +40,22 @@ body {
 .header__link {}
 /* ...............................END HEADER................................ */
 
-/* INDEX.HTML */
 
+/* ...................................FOOTER.................................. */
+.footer {}
+
+.footer__address {}
+
+.footer__list {}
+
+.footer__item {}
+
+.footer__link {}
+
+/* .................................END FOOTER................................ */
+
+
+/* ...............................INDEX.HTML............................... */
 .main__content {}
 
 .main__hero {}
@@ -85,14 +99,31 @@ body {
 .team__name {}
 
 .team__position {}
+/* ...............................END INDEX.HTML.............................. */
 
-.footer {}
 
-.footer__address {}
+/* ...............................PORTFOLIO.HTML.............................. */
+.portfolio__content {}
 
-.footer__list {}
+.portfolio__section {}
 
-.footer__item {}
+.portfolio__title {}
 
-.footer__link {}
-/* ...........................END INDEX.HTML........................... */
+.portfolio__filter {}
+
+.filter__item {}
+
+.filter__button {}
+
+.portfolio__list {}
+
+.portfolio__item {}
+
+.portfolio__link {}
+
+.portfolio__img {}
+
+.portfolio__name {}
+
+.portfolio__discrpt {}
+/* ...............................END PORTFOLIO.HTML.......................... */
