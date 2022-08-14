@@ -261,13 +261,26 @@ body {
 
 .portfolio__list {}
 
-.portfolio__item {}
+.portfolio__item {
+	border: 1px solid #EEEEEE;
+}
 
 .portfolio__link {}
 
 .portfolio__img {}
 
-.portfolio__name {}
+.portfolio__name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--primary-text-color);
+}
 
-.portfolio__discrpt {}
+.portfolio__discrpt {
+	font-size: 16px;
+	line-height: 1.875;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
 /* ...............................END PORTFOLIO.HTML.......................... */
