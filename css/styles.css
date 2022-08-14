@@ -176,7 +176,14 @@ body {
 	background-color: var(--benefits-example-bg-color);
 }
 
-.example__title {}
+.example__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
 
 .example__list {}
 
