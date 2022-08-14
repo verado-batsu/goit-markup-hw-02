@@ -191,19 +191,37 @@ body {
 
 .example__img {}
 
-.main__team {}
+.main__team {
+	background-color: var(--team-bg-color);
+	letter-spacing: 0.03em;
+}
 
-.team__title {}
+.team__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	color: var(--primary-text-color);
+}
 
 .team__list {}
 
-.team__item {}
+.team__item {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.1875;
+}
 
 .team__img {}
 
-.team__name {}
+.team__name {
+	font-weight: 500;
+	color: var(--primary-text-color);
+}
 
-.team__position {}
+.team__position {
+	color: var(--secondary-text-color);
+}
 /* ...............................END INDEX.HTML.............................. */
 
 
